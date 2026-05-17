@@ -1,0 +1,45 @@
+{
+  "schemaVersion": 1,
+  "id": "translation",
+  "version": "1.0.0",
+  "kind": "local",
+  "name": {
+    "i18nKey": "plugins.translation.name",
+    "fallback": "Translation"
+  },
+  "description": {
+    "i18nKey": "plugins.translation.description",
+    "fallback": "Translate window, selection translation, screenshot translation, and offline model management."
+  },
+  "category": "automation",
+  "enabledByDefault": true,
+  "capabilities": {
+    "routeNames": [
+      "Translate"
+    ],
+    "settingsTabs": [
+      "translation"
+    ],
+    "hotkeys": [
+      "translate",
+      "selection_translate"
+    ],
+    "searchSources": []
+  },
+  "resources": {
+    "hintKey": "plugins.translation.resourceHint",
+    "bundled": false
+  },
+  "permissions": [
+    "command:*"
+  ],
+  "compatibleAppVersion": ">=1.5.6",
+  "entry": {
+    "frontend": "dist/frontend.js",
+    "styles": [
+      "dist/assets/index-Cd8zdyIa.css",
+      "dist/assets/index-CKvn18OD.css",
+      "dist/assets/_plugin-vue_export-helper-CHXRjTYS.css"
+    ]
+  }
+}
