@@ -3,9 +3,9 @@
 Official installable plugin package for Snippets Code.
 
 - Plugin ID: `translation`
-- Version: `2.0.15`
+- Version: `2.0.16`
 - Source: `plugin-registry/packages/translation`
-- App compatibility: `>=2.1.36`
+- App compatibility: `>=2.1.42`
 
 Install URL:
 
@@ -16,7 +16,7 @@ https://github.com/GigaPuddings/snippets-code-plugin-translation/archive/refs/he
 Versioned release URL:
 
 ```text
-https://github.com/GigaPuddings/snippets-code-plugin-translation/archive/refs/tags/2.0.15.zip
+https://github.com/GigaPuddings/snippets-code-plugin-translation/archive/refs/tags/2.0.16.zip
 ```
 
 This repository is synchronized from the main application repository by
